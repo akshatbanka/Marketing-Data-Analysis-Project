@@ -96,4 +96,4 @@ customer_reviews_df['SentimentBucket'] = customer_reviews_df['SentimentScore'].a
 print(customer_reviews_df.head())
 
 # Save the DataFrame with sentiment scores, categories, and buckets to a new CSV file
-customer_reviews_df.to_csv('fact_customer_reviews_enrich.csv', index=False)
+customer_reviews_df.to_csv('customer_reviews_with_sentiment.csv', index=False)
